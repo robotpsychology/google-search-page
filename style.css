@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --light-gray: rgba(231, 229, 229, 0.623);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+#header a {
+    color: inherit;
+}
+
+.header-first-row {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+
+
+}
+
+.google-logo img{
+    width: 70px;
+}
+
+.search-container #search-bar {
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 15px;
+    padding-left: 50px;
+    background: none;
+    border: 1.5px solid var(--light-gray);
+}
+
+.search-container i {
+    position: relative;
+    left: 35px;
+}
+
+
+.header-second-row {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header-second-row .nav-1 {
+    display: flex;
+    gap: 15px;
+    margin-left: 100px;
+}
+
+
+.header-second-row .nav-2 {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-1 div {
+    display: flex;
+    gap: 7px;
+}
+
+
+
+
+
+
+
+
+#main {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 115px;
+}
+
+.result-count {
+}
+
+.result {
+    margin: 13px 0;
+}
+
+.result-box-1 {
+    padding: 15px 10px;
+    border: 2px solid var(--light-gray);
+    border-radius: 3px;
+
+}
+
+.result-box-1 p {
+    margin-bottom: 10px;
+}
+
+.similar-questions-box {
+    border: 1px solid var(--light-gray);
+    border-radius: 5px;
+}
+
+.similar-questions-box td {
+    border: 1px solid var(--light-gray);
+}
+
+
+
+
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 115px;
+    gap: 5px;
+    background:var(--light-gray);
+    border-top: 1px solid rgba(187, 187, 187, 0.623);
+}
+
+#footer .footer-nav-2 {
+    display: flex;
+    gap: 30px;
+}
+
+#footer .footer-nav-2 a {
+    color: inherit;
+}
+
+
+
